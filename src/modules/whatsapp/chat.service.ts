@@ -19,7 +19,7 @@ export class ChatService {
         // 1. Get latest message per remoteJid with cursor pagination
         // Uses m1.timestamp < before (when provided) to load older chats
         // Build params: [dbSessionId, dbSessionId, (before?), limit]
-       src/modules/whatsapp/chat.service.ts
+       
 
         // Fast return if no messages
         if (rawLastMessages.length === 0) return [];
